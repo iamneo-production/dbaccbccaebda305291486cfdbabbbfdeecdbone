@@ -7,8 +7,8 @@ terraform {
 } 
 provider "aws" {
     region = "Singapore" 
-    access_key = "" 
-    secret_key = ""
+    access_key = "AKIA2NMMEGGPCNGF6H66" 
+    secret_key = "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"
 } 
 resource "aws_instance" "linux_server"{
     ami="SUSE Linux Enterprise Server 12 SP5" 
