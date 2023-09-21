@@ -15,3 +15,6 @@ resource "aws_instance" "linux_server"{
     instance_type = "t2.micro" 
 }
 
+output "public_ip"{
+    value = aws_instance.demo_instance.public_ip
+}
